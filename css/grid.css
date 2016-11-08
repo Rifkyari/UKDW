@@ -1,0 +1,64 @@
+.g12plus {
+	width: 100%;
+	margin: 0 0 1% 0;
+	float: left; 
+}
+
+.g1 {
+	width: 7.875%;
+}
+
+.g2 {
+	width: 16.25%;
+}
+
+.g3 {
+	width: 24.62%;
+}
+
+.g4 {
+	width: 33%;
+}
+
+.g5 {
+	width: 41.37%
+}
+
+.g6 {
+	width: 49.75%;
+}
+
+.g7 {
+	width : 58.12%;
+}
+
+.g8 {
+	width: 66.5%;
+}
+
+.g9 {
+	width: 74.87%;
+}
+
+.g10 {
+	width: 83.25%;
+}
+
+.g11 {
+	width: 91.62%;
+}
+
+.g12 {
+	width: 100%;
+}
+
+
+.col{
+	margin: 0 0 1% 0.5%;
+	float: left;
+}
+
+.col:first-child{
+	margin-left: 0;
+}
+
