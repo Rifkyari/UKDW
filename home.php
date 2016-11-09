@@ -7,7 +7,6 @@
 		<link rel="stylesheet" href="css/font.css" />
 	</head>
 	<body>
-		
 		<header>
 			<div class="g12plus">
 				<div class="g1 col"></div>
