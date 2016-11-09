@@ -4,6 +4,39 @@ body {
 	overflow-x: hidden;
 }
 
+/*misc*/
+
+.relative {
+	position: relative;
+	z-index: 1;
+}
+
+.nomarg{
+	margin: 0 0 0 0 !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.btn{
+	padding: 2.5% 5%;
+	font-family: mohave;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.green {
+	background-color: #00A49B;
+}
+
+.green:hover{
+	background-color: #008c85;
+	color: #fff;
+}
+
+/*div*/
+
 header {
 	width: 100%;
 	height: 100px;
@@ -18,7 +51,6 @@ header {
 .logo {
 	padding: 10px 20px;
 	margin:  0;
-	float: left;
 	cursor: pointer;
 }
 
@@ -38,7 +70,7 @@ header {
 	line-height: 30px;
 	margin: 0;
 	color: #C25C8F;
-	font-family: mohave;
+	font-family: pacifico;
 	text-shadow: 0 0.5px 1px #2d2c2e;
 	cursor: pointer;
 }
@@ -51,7 +83,7 @@ header ul {
 header ul li {
 	display: inline;
 	margin: 0;
-	padding: 10px 20px;
+	padding: 10px 15px;
 	line-height: 70px;
 	font-size: 1em;
 	font-family: mohave;
@@ -61,125 +93,38 @@ header ul li {
 
 header ul li a {
 	border: none;
-	padding: 2px 4px;
+	padding: 3px 4px;
 	transition: 0.1s;
 }
 
 header ul li a:hover {
-	padding: 2px 4px;
+	padding: 3px 4px;
 	border-bottom: 2px solid #fff;
 }
 
 
-@keyframes slide{
-	0% {left: 0%}
-	20% {left: 0%}
-	25% {left: -100%}
-	45% {left: -100%}
-	50% {left: -200%}
-	70% {left: -200%}
-	75% {left: -300%}
-	95% {left: -300%}
-	100% {left: -400%}
-}
-
-figure {
-	position: relative;
-	margin: 0;
-	padding: 0;
-	width: 500%;
-	height: 550px;
-	margin-top: -150px;
-	animation: 30s slide infinite; 
-  	z-index: -2;
-}
-
-#slide1 {	
-	width: 20%;	
-	height: 550px;
-	float: left;
-	background: linear-gradient(
-	    rgba(0, 0, 0, 0.2),
-	    rgba(0, 0, 0, 0.1)),
-	    url(../img/slide/slide1.jpg) no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-position: center;
-}
-
-#slide2 {	
-	width: 20%;	
-	height: 550px;
-	float: left;
-	background:linear-gradient(
-	    rgba(0, 0, 0, 0.2),
-	    rgba(0, 0, 0, 0.1)),
-	    url(../img/slide/slide2.jpg) no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-position: center;
-}
-
-#slide3 {	
-	width: 20%;	
-	height: 550px;
-	float: left;
-	background:linear-gradient(
-	    rgba(0, 0, 0, 0.2),
-	    rgba(0, 0, 0, 0.1)),
-	    url(../img/slide/slide3.jpg) no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-position: center;
-}
-
-#slide4 {	
-	width: 20%;	
-	height: 550px;
-	float: left;
-	background:linear-gradient(
-	    rgba(0, 0, 0, 0.2),
-	    rgba(0, 0, 0, 0.1)),
-	    url(../img/slide/slide4.jpg) no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	background-position: center;
-}
-
-.nomarg{
-	margin: 0 0 0 0 !important;
-}
-
-.center {
-	text-align: center;
-}
-
-.btn{
-	padding: 2.5% 5%;
-	background-color: #00A49B;
-	font-family: mohave;
-	cursor: pointer;
-	transition: 0.3s;
-}
-
-.btn:hover{
-	background-color: #008c85;
-	color: #fff;
-}
 
 
 .flash {
-	background:
-	    url(../img/back/flight.png) no-repeat;
+	/*background:
+	    url(../img/back/flight.png) no-repeat;*/
+	background-color: #dcd1bd;
+	padding: 20px 0;
 	width:100%;  
-	height: 400px;
+	height: 360px;
+	position: relative;
+	z-index: 2;
+}
+
+.flash p {
+	font-size: 1em;
 }
 
 .jogja {
 	font-size: 6em;
 	font-family: jogjakartype;
 	color: #FF6969;
-	margin: 20% 0 0 0 ;
+	margin: 15% 0 0 0 ;
 	border-bottom: 2px solid #a0a0a0;
 }
 
@@ -189,3 +134,36 @@ figure {
 	margin: 5% 0 7% 0 ;
 }
 
+.caption{
+	margin-top: 20% !important;
+	font-size: 4em;
+	font-family:pacifico;
+	color: #fff;
+}
+
+.caption-btn {
+	padding: 1% 2%;
+	color: #fff;
+	border: 2px solid #fff;
+	cursor: pointer;
+	display: inline-block !important;
+	text-decoration: none;
+}
+
+.caption-btn:hover{
+	border: 2px solid transparent;
+	color: #000;
+	background-color: #fff;
+}
+
+
+.content {
+	/*background:
+	    url(../img/back/flight.png) no-repeat;*/
+	background-color: #dcd1bd;
+	padding: 20px 0;
+	width:100%;  
+	height: auto;
+	position: relative;
+	z-index: 2;
+}
