@@ -1,6 +1,11 @@
 <!doctype html>
+<html>
+<head>
+	<title>Pariwisata Yogyakarta.</title>
 	<link rel="stylesheet" href="css/grid.css" />
+	<link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/news.css" />
+</head>
 <body>
 	<header id="header">
 			<div class="g12plus">
