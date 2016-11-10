@@ -16,8 +16,8 @@
 					</div>
 					<div class="g6 col">
 						<ul>
-							<li><a>Home</a></li>
-							<li><a>Berita</a></li>
+							<li><a href="home.php">Home</a></li>
+							<li><a href="berita.php">Berita</a></li>
 							<li><a>Event</a></li>
 							<li><a>Profil</a></li>
 						</ul>
