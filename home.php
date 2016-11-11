@@ -103,7 +103,7 @@
 						<div class="g7 col">
 							<ul>
 								<li><a>Home</a></li>
-								<li><a>Event</a></li>
+								<li><a href="event.php">Event</a></li>
 								<li><a>Pengalaman</a></li>
 								<li><a>Profil</a></li>
 								<li><a>Login</a></li>

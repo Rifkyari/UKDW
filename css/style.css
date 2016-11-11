@@ -40,8 +40,7 @@ body {
 header {
 	width: 100%;
 	height: 100px;
-	background-color: black;
-	/* background: linear-gradient(
+	background: linear-gradient(
 	    rgba(0, 0, 0, 0.8),
 	    rgba(0, 0, 0, 0)
 	    );		
