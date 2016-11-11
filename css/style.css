@@ -19,11 +19,20 @@ body {
 	text-align: center;
 }
 
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
 .btn{
-	padding: 2.5% 5%;
+	padding: 2% 5%;
 	font-family: mohave;
 	cursor: pointer;
 	transition: 0.3s;
+	color: #000 !important;
 }
 
 .green {
@@ -32,7 +41,7 @@ body {
 
 .green:hover{
 	background-color: #008c85;
-	color: #fff;
+	color: #fff !important;
 }
 
 /*div*/
@@ -58,20 +67,18 @@ header {
 	line-height: 30px;
 	margin : 0 10px 0 0 ;
 	padding: 15px 0 5px 0;
-	color: #FF6969 ;
+	color: #fff ;
 	font-family: mohave;
 	font-style: italic;
 	font-size: 1.6em;
-	text-shadow: 0 0.5px 1px #2d2c2e;
 	cursor: pointer;
 }
 
 .logo-name {
 	line-height: 30px;
 	margin: 0;
-	color: #C25C8F;
+	color: #fff;
 	font-family: pacifico;
-	text-shadow: 0 0.5px 1px #2d2c2e;
 	cursor: pointer;
 }
 
@@ -141,9 +148,16 @@ header ul li a:hover {
 	color: #fff;
 }
 
+.caption-paralax{
+	margin-top: 12% !important;
+	font-size: 3em;
+	font-family:pacifico;
+	color: #fff;
+}
+
 .caption-btn {
 	padding: 1% 2%;
-	color: #fff;
+	color: #fff !important;
 	border: 2px solid #fff;
 	cursor: pointer;
 	display: inline-block !important;
@@ -152,7 +166,7 @@ header ul li a:hover {
 
 .caption-btn:hover{
 	border: 2px solid transparent;
-	color: #000;
+	color: #000 !important;
 	background-color: #fff;
 }
 
@@ -163,7 +177,163 @@ header ul li a:hover {
 	background-color: #dcd1bd;
 	padding: 20px 0;
 	width:100%;  
-	height: auto;
+	height: 620px;
 	position: relative;
 	z-index: 2;
+}
+
+.content h2 {
+	margin: 0 0 20px 0;
+	font-family: mohave;
+	font-size: 2em;
+	color: #FF6969;
+}
+
+.event-con {
+	width: 100%;
+	float: left;
+	margin: 0 0 0 0;
+}
+
+.event {
+	width: 100%;
+	height: 250px;
+	background-color: #7b7e84;
+}
+
+.event-title {
+	width: 100%;
+	font-family: mohave;
+	font-size: 1.5em;
+	margin-top: -60%;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
+
+.event-desc-con {
+	width: 100%;
+	height: 100%;
+	top: -37%;
+	position: relative;
+	z-index: 4;
+	background-color: #6c686f;
+	opacity: 0;
+	transition: 1s;
+}
+
+.event-desc-con:hover {
+	opacity: 1;
+} 
+
+.event-desc {
+	padding: 2% 2%;
+	color: #fff;
+	text-align: center;
+	font-family: arial;
+	font-style: italic;
+	cursor: pointer;
+}
+
+.event-desc h3 {
+	font-family: mohave;
+	font-style: normal;
+	margin: 10px 0 0 0;
+}
+
+.event-more {
+	padding: 1% 0;
+	font-family: mohave;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.berita {
+	width: 100%;
+	height: 250px;
+	background-color: #7b7e84;
+}
+
+.berita-long-title {
+	width: 100%;
+	font-family: mohave;
+	font-size: 1.5em;
+	margin-top: -20%;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
+
+.berita-short-title {
+	width: 80%;
+	padding: 0 10%;
+	font-family: mohave;
+	font-size: 1.5em;
+	margin-top: -45%;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
+
+.berita-long-desc-con {
+	width: 100%;
+	height: 100%;
+	top: -64.25%;
+	position: relative;
+	z-index: 4;
+	background-color: #6c686f;
+	opacity: 0;
+	transition: 1s;
+}
+
+.berita-long-desc-con:hover {
+	opacity: 1;
+} 
+
+.berita-short-desc-con {
+	width: 100%;
+	height: 100%;
+	top: -68.5%;
+	position: relative;
+	z-index: 4;
+	background-color: #6c686f;
+	opacity: 0;
+	transition: 1s;
+}
+
+.berita-short-desc-con:hover {
+	opacity: 1;
+} 
+
+.berita-desc {
+	padding: 2% 2%;
+	color: #fff;
+	text-align: center;
+	font-family: arial;
+	font-style: italic;
+	cursor: pointer;
+}
+
+.berita-desc h3 {
+	font-family: mohave;
+	font-style: normal;
+	margin: 10px 0 0 0;
+}
+
+
+#paralax {	
+	width: 100%;
+	height: 400px;
+	margin-top: -30px;
+	float: left;
+	background: linear-gradient(
+	    rgba(0, 0, 0, 0.2),
+	    rgba(0, 0, 0, 0.1)),
+	    url(../img/slide/slide5.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: center;
 }
