@@ -32,15 +32,15 @@ body {
 	font-family: mohave;
 	cursor: pointer;
 	transition: 0.3s;
-	color: #000 !important;
+	color: #fff !important;
 }
 
 .green {
-	background-color: #00A49B;
+	background-color: #009933;
 }
 
 .green:hover{
-	background-color: #008c85;
+	background-color: #009933;
 	color: #fff !important;
 }
 
