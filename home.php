@@ -24,6 +24,7 @@
 						<div class="g7 col">
 							<ul>
 								<li><a>Home</a></li>
+								<li><a href="event.php">Event</a></li>
 								<li><a>Agenda</a></li>
 								<li><a>Pengalaman</a></li>
 								<li><a>Profil</a></li>
@@ -201,7 +202,7 @@
 						</div>
 					</div>
 					<div class="g12plus">
-						<div class="g2 col event-more green right center">More</div>
+						<div class="g1 col event-more green right center">More</div>
 					</div>
 				</div>
 				<div class="g1 col"></div>					
@@ -232,7 +233,7 @@
 									<div class="berita-desc">
 										<h3>Pengakuan Internasional Terhadap Tari Lokal</h3>
 										<p>Merupakan salah satu pementasan yang menjadi ciri khas Kebudayaan Jawa yang telah melekat di Yogyakarta dan...</p><br />
-										<a class="btn green">Lihat Detail</a>
+										<a class="btn green" href="berita.php">Lihat Detail</a>
 									</div>
 								</div>
 							</div>
@@ -245,7 +246,7 @@
 									<div class="berita-desc">
 										<h3>Pengakuan Internasional Terhadap Tari Lokal</h3>
 										<p>Merupakan salah satu pementasan yang menjadi ciri khas Kebudayaan Jawa yang telah melekat di Yogyakarta dan...</p><br />
-										<a class="btn green">Lihat Detail</a>
+										<a class="btn green" href="berita.php">Lihat Detail</a>
 									</div>
 								</div>
 							</div>
@@ -260,7 +261,7 @@
 									<div class="berita-desc">
 										<h3>Pengakuan Internasional Terhadap Tari Lokal</h3>
 										<p>Merupakan salah satu pementasan yang menjadi ciri khas Kebudayaan Jawa yang telah melekat di Yogyakarta dan...</p><br />
-										<a class="btn green">Lihat Detail</a>
+										<a class="btn green" href="berita.php">Lihat Detail</a>
 									</div>
 								</div>
 							</div>
@@ -273,14 +274,14 @@
 									<div class="berita-desc">
 										<h3>Pengakuan Internasional Terhadap Tari Lokal</h3>
 										<p>Merupakan salah satu pementasan yang menjadi ciri khas Kebudayaan Jawa yang telah melekat di Yogyakarta dan...</p><br />
-										<a class="btn green">Lihat Detail</a>
+										<a class="btn green" href="berita.php">Lihat Detail</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="g12plus">
-						<div class="g2 col event-more green right center">More</div>
+						<div class="g1 col event-more green right center" href="berita.php">More</div>
 					</div>
 				</div>
 				<div class="g1 col"></div>					
