@@ -27,6 +27,14 @@ body {
 	float: left;
 }
 
+.border-left {
+	border-left: 1px solid #acaaac;
+}
+
+.border-bot {
+	border-bottom: 1px solid #acaaac;
+}
+
 .btn{
 	padding: 2% 5%;
 	font-family: mohave;
@@ -49,8 +57,9 @@ body {
 header {
 	width: 100%;
 	height: 100px;
+	padding-top: 20px;
 	background-color: black;
-	/* background: linear-gradient(
+	background: linear-gradient(
 	    rgba(0, 0, 0, 0.8),
 	    rgba(0, 0, 0, 0)
 	    );		
@@ -59,7 +68,7 @@ header {
 }
 
 .logo {
-	padding: 10px 20px;
+	padding: 10% 20px;
 	margin:  0;
 	cursor: pointer;
 }
@@ -181,6 +190,7 @@ header ul li a:hover {
 	height: 620px;
 	position: relative;
 	z-index: 2;
+	margin: auto;
 }
 
 .content h2 {
@@ -338,3 +348,207 @@ header ul li a:hover {
 	background-size: 100% 100%;
 	background-position: center;
 }
+
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: #d1a683;
+	margin-top: -1.7%;
+	bottom: 0;
+	position: relative;
+}
+
+footer .list {
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+
+footer .list .icon {
+	width: 12.5%;
+	height: auto;
+	float: left;
+}
+
+footer .list .desc {
+	width: 87.5%;
+	height: 100%;
+	float: left;
+}
+
+footer .list .desc h4 {
+	line-height: 60px;
+	margin: auto;
+	color: #1f1f1f;
+	font-family: mohave;
+}
+
+footer form h3 {
+	line-height: 50px;
+	margin: auto;
+	color: #1f1f1f;
+	font-family: mohave;
+}
+
+
+footer form span {
+	line-height: 40px;
+	color: #1f1f1f;
+	font-family: mohave;
+}
+
+footer form textarea{
+	width: 100%;
+	padding: 2% 7%;
+	margin: auto;
+	font-family: mohave;
+	resize: none;
+} 
+
+footer form input[type=email]{
+	width: 100%;
+	padding: 2% 7%;
+	margin: auto;
+} 
+
+footer form input[type=submit]{
+	width: 100%;
+	padding: 2% 7%;
+	margin-top: 10px;
+	font-family: mohave;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+} 
+
+/* modal */
+
+.modal {
+	display: none; 
+    position: fixed;
+    z-index: 12; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 1% 1%;
+    padding: 3%;
+    position: fixed;
+    width: 92%; 
+    height: 82%;
+	border-radius: 3px;
+	border-top: 3px solid #40e13c;
+	box-shadow:0px 2px 4px #000;
+	transition: 0.3s;
+}
+
+.modal-top {
+	width: 100%;
+	height: 30px;
+	border-bottom: 0px solid #acaaac;
+}
+ 
+.modal-close {
+	float: right;
+	line-height: 20px;
+	font-size: 2.5em;
+	font-weight: bold;
+	cursor: pointer;
+	color: #666;
+	transition: 0.3s;
+}
+
+.modal-close:hover {
+	color: #FF0939;
+}
+
+.modal-content h3 {
+	font-family: mohave ;
+	font-size: 2em;
+	margin: 1% 0%;
+	
+}
+
+.modal-content p {
+	font-family: arial ;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.modal-content span {
+	font-family: arial ;
+	margin-top: 5%;
+}
+
+.modal-content select {
+	width: 100%;
+	height: 40px;
+	padding: 1% 2%;
+	border: 1px solid #acaaac;
+	border-radius:3px; 
+}
+
+.modal-content input[type=date] {
+	width: 100%;
+	height: 40px;
+	padding: 1% 2%;
+	border: 1px solid #acaaac;
+	border-radius:3px; 
+}
+
+.modal-content input[type=submit] {
+	width: 100%;
+	height: 40px;
+	padding: 1% 2%;
+	border: none;
+	border-radius:3px; 
+	cursor: pointer;
+}
+
+.modal-content .away {
+	padding-top: 20px;
+}
+
+.modal-content a {
+	font-family: arial;
+	text-align: center;
+	font-style: italic;
+	transition: 0.3s;
+}
+
+.modal-content .fly {
+	font-size: 7em;
+	font-family: jogjakartype;
+	color: #FF6969;
+}
+
+.modal-content .fly h1 {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	animation: move 10s infinite;
+}
+
+@keyframes move {
+    0%   {top: -30px;}
+    20%  {top: 30px;}
+    40%  {top: -30px}
+    80%  {top: 30px}
+    100% {top: -30px;}
+}
+
+@keyframes modal-zoom{
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
+.modal-animate{
+	animation : modal-zoom 0.4s;
+}
+	
